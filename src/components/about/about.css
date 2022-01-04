@@ -1,0 +1,99 @@
+.about_jar{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about_left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.about_right{
+    flex: 1;
+    padding: 55px;
+}
+
+.about_card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about_card.bgg{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(159, 160, 158);
+}
+
+.card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a-award-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+  }
+  
+  .a-title {
+    font-weight: 400;
+  }
+  
+  .a-sub {
+    margin: 20px 0px;
+  }
+  
+  .a-desc{
+      font-weight: 300;
+  }
+  
+  .a-award{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .a-award-texts{
+      width: 70%;
+  }
+  
+  .a-award-title{
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 10px;
+  }
+
+  @media screen and (max-width:480px) {
+    .about_jar{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .about_left {
+      width: 100%;
+    }
+
+    .about_card {
+      height: 30vh;
+    }
+
+    .about_card.bgg, .a-award {
+      display: none;
+    }
+
+    .about_right{
+      padding: 20px;
+    }
+}
