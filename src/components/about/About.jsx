@@ -12,7 +12,7 @@ const About = () => {
                 </div>
             </div>
         <div className="about_right">
-            <h1 className="a-title">About Me</h1>
+            <h1 className="a-title">Ronnie Dsouza</h1>
             <p className="a-sub">
                 It is a long established fact that a reader will be distracted by the
                 readable content.

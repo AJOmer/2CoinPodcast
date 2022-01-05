@@ -1,4 +1,4 @@
-.about_jar{
+.about_jarw{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
 }
 
-.about_left{
+.about_rightw{
     flex: 1;
     display: flex;
     align-items: center;
@@ -16,12 +16,12 @@
     height: 100%;
 }
 
-.about_right{
+.about_leftw{
     flex: 1;
     padding: 55px;
 }
 
-.about_card{
+.about_cardw{
     width: 60%;
     height: 70vh;
     border-radius: 30px;
@@ -29,76 +29,76 @@
     overflow: hidden;
 }
 
-.about_card.bgg{
+.about_cardw.bgg{
     position: absolute;
     top: 12%;
-    left: 15%;
+    left: 25%;
     background-color: rgb(159, 160, 158);
 }
 
-.card_img{
+.card_imgw{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.a-award-img {
+.a-award-imgw {
     width: 120px;
     height: 120px;
     border-radius: 20px;
   }
   
-  .a-title {
+  .a-titlew {
     font-weight: 600;
   }
   
-  .a-sub {
+  .a-subw {
     margin: 20px 0px;
     font-weight: 500;
   }
   
-  .a-desc{
+  .a-descw{
       font-weight: 500;
   }
   
-  .a-award{
+  .a-awardw{
       margin-top: 50px;
       display: flex;
       align-items: center;
       justify-content: space-between;
   }
   
-  .a-award-texts{
+  .a-award-textsw{
       width: 70%;
       font-weight: 500;
   }
   
-  .a-award-title{
+  .a-award-titlew{
       font-weight: bold;
       color: #555;
       margin-bottom: 10px;
   }
 
   @media screen and (max-width:480px) {
-    .about_jar{
+    .about_jarw{
       flex-direction: column;
       text-align: center;
       margin-top: 50px;
     }
 
-    .about_left {
+    .about_leftw {
       width: 100%;
     }
 
-    .about_card {
+    .about_cardw {
       height: 30vh;
     }
 
-    .about_card.bgg, .a-award {
+    .about_cardw.bgg, .a-award {
       display: none;
     }
 
-    .about_right{
+    .about_rightw{
       padding: 20px;
     }
 }
