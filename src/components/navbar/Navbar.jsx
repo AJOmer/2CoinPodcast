@@ -1,5 +1,5 @@
 import './navbar.css';
-import Coin from '../../imgs/coin.png';
+import SpinCoin from '../../imgs/spincoin.gif';
 
 const Navbar = () => {
     return (
@@ -13,12 +13,12 @@ const Navbar = () => {
             <div className="topCenter">
                 <ul className='topList'>
                     <li className='topListItem'>HOME</li>
-                    <li className='topListItem'>ABOUT</li>
+                    <li id='aboutit' className='topListItem'>ABOUT</li>
                     <li className='topListItem'>PODCAST</li>
                 </ul>
             </div>
             <div className="topRight">
-                <img src={Coin} alt='coin icon' className='topImage'/>
+                <img src={SpinCoin} alt='coin icon' className='topImage'/>
             </div>
         </div>
     )
