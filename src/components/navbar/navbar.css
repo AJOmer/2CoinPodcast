@@ -1,0 +1,52 @@
+.topbar{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.topImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topCenter{
+    flex: 6;
+}
+
+
+i{
+
+    font-size: 30px;
+    margin-left: 13px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
